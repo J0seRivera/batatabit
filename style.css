@@ -321,15 +321,18 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product-detail--card .clock {
+.product-detail--card .card-icon {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-bottom: 10px;
-  background-image: url("./assets/icons/clock.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.product-detail--card .clock {
+  background-image: url("./assets/icons/clock.svg");
 }
 
 .product-detail--card .product--card-title {
@@ -344,4 +347,18 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
+  text-align: left;
 }
+
+.product-detail--card .eye {
+  background-image: url("./assets/icons/eye.svg");
+}
+.product-detail--card .cash {
+  background-image: url("./assets/icons/dollar-sign.svg");
+}
+
+.product-detail--card .check {
+  background-image: url("./assets/icons/check-circle.svg");
+}
+
+
